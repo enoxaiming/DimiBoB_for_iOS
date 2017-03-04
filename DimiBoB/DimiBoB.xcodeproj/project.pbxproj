@@ -7,305 +7,207 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9EACA7E41E5B55A700ED9C02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EACA7E31E5B55A700ED9C02 /* main.m */; };
-		9EACA7E71E5B55A700ED9C02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EACA7E61E5B55A700ED9C02 /* AppDelegate.m */; };
-		9EACA7EA1E5B55A700ED9C02 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EACA7E91E5B55A700ED9C02 /* ViewController.m */; };
-		9EACA7ED1E5B55A700ED9C02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EACA7EB1E5B55A700ED9C02 /* Main.storyboard */; };
-		9EACA7EF1E5B55A700ED9C02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EACA7EE1E5B55A700ED9C02 /* Assets.xcassets */; };
-		9EACA7F21E5B55A700ED9C02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EACA7F01E5B55A700ED9C02 /* LaunchScreen.storyboard */; };
-		9EACA7FD1E5B55A700ED9C02 /* DimiBoBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EACA7FC1E5B55A700ED9C02 /* DimiBoBTests.m */; };
-		9EACA8081E5B55A700ED9C02 /* DimiBoBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EACA8071E5B55A700ED9C02 /* DimiBoBUITests.m */; };
-		9EACA81C1E5B587E00ED9C02 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EACA81B1E5B587E00ED9C02 /* NotificationCenter.framework */; };
-		9EACA8201E5B587E00ED9C02 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EACA81F1E5B587E00ED9C02 /* TodayViewController.m */; };
-		9EACA8231E5B587E00ED9C02 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EACA8211E5B587E00ED9C02 /* MainInterface.storyboard */; };
-		9EACA8271E5B587E00ED9C02 /* DimiBoB_Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9EACA8191E5B587E00ED9C02 /* DimiBoB_Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9E5319A21E61AADA00868B7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5319A11E61AADA00868B7F /* AppDelegate.swift */; };
+		9E5319A41E61AADA00868B7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5319A31E61AADA00868B7F /* ViewController.swift */; };
+		9E5319A71E61AADA00868B7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E5319A51E61AADA00868B7F /* Main.storyboard */; };
+		9E5319A91E61AADA00868B7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E5319A81E61AADA00868B7F /* Assets.xcassets */; };
+		9E5319AC1E61AADA00868B7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E5319AA1E61AADA00868B7F /* LaunchScreen.storyboard */; };
+		9E5319B71E61AADA00868B7F /* DimiBoBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5319B61E61AADA00868B7F /* DimiBoBTests.swift */; };
+		9E5319C21E61AADA00868B7F /* DimiBoBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5319C11E61AADA00868B7F /* DimiBoBUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9EACA7F91E5B55A700ED9C02 /* PBXContainerItemProxy */ = {
+		9E5319B31E61AADA00868B7F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9EACA7D71E5B55A600ED9C02 /* Project object */;
+			containerPortal = 9E5319961E61AADA00868B7F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9EACA7DE1E5B55A600ED9C02;
+			remoteGlobalIDString = 9E53199D1E61AADA00868B7F;
 			remoteInfo = DimiBoB;
 		};
-		9EACA8041E5B55A700ED9C02 /* PBXContainerItemProxy */ = {
+		9E5319BE1E61AADA00868B7F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9EACA7D71E5B55A600ED9C02 /* Project object */;
+			containerPortal = 9E5319961E61AADA00868B7F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9EACA7DE1E5B55A600ED9C02;
+			remoteGlobalIDString = 9E53199D1E61AADA00868B7F;
 			remoteInfo = DimiBoB;
-		};
-		9EACA8251E5B587E00ED9C02 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9EACA7D71E5B55A600ED9C02 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9EACA8181E5B587E00ED9C02;
-			remoteInfo = DimiBoB_Extension;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		9EACA82B1E5B587E00ED9C02 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				9EACA8271E5B587E00ED9C02 /* DimiBoB_Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		9EACA7DF1E5B55A700ED9C02 /* DimiBoB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DimiBoB.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EACA7E31E5B55A700ED9C02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9EACA7E51E5B55A700ED9C02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9EACA7E61E5B55A700ED9C02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9EACA7E81E5B55A700ED9C02 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9EACA7E91E5B55A700ED9C02 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9EACA7EC1E5B55A700ED9C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9EACA7EE1E5B55A700ED9C02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9EACA7F11E5B55A700ED9C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9EACA7F31E5B55A700ED9C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9EACA7F81E5B55A700ED9C02 /* DimiBoBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DimiBoBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EACA7FC1E5B55A700ED9C02 /* DimiBoBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DimiBoBTests.m; sourceTree = "<group>"; };
-		9EACA7FE1E5B55A700ED9C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9EACA8031E5B55A700ED9C02 /* DimiBoBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DimiBoBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EACA8071E5B55A700ED9C02 /* DimiBoBUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DimiBoBUITests.m; sourceTree = "<group>"; };
-		9EACA8091E5B55A700ED9C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9EACA8191E5B587E00ED9C02 /* DimiBoB_Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DimiBoB_Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EACA81B1E5B587E00ED9C02 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
-		9EACA81E1E5B587E00ED9C02 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
-		9EACA81F1E5B587E00ED9C02 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
-		9EACA8221E5B587E00ED9C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		9EACA8241E5B587E00ED9C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E53199E1E61AADA00868B7F /* DimiBoB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DimiBoB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E5319A11E61AADA00868B7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E5319A31E61AADA00868B7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E5319A61E61AADA00868B7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E5319A81E61AADA00868B7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E5319AB1E61AADA00868B7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E5319AD1E61AADA00868B7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E5319B21E61AADA00868B7F /* DimiBoBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DimiBoBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E5319B61E61AADA00868B7F /* DimiBoBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimiBoBTests.swift; sourceTree = "<group>"; };
+		9E5319B81E61AADA00868B7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E5319BD1E61AADA00868B7F /* DimiBoBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DimiBoBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E5319C11E61AADA00868B7F /* DimiBoBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimiBoBUITests.swift; sourceTree = "<group>"; };
+		9E5319C31E61AADA00868B7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9EACA7DC1E5B55A600ED9C02 /* Frameworks */ = {
+		9E53199B1E61AADA00868B7F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EACA7F51E5B55A700ED9C02 /* Frameworks */ = {
+		9E5319AF1E61AADA00868B7F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EACA8001E5B55A700ED9C02 /* Frameworks */ = {
+		9E5319BA1E61AADA00868B7F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9EACA8161E5B587E00ED9C02 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9EACA81C1E5B587E00ED9C02 /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9EACA7D61E5B55A600ED9C02 = {
+		9E5319951E61AADA00868B7F = {
 			isa = PBXGroup;
 			children = (
-				9EACA7E11E5B55A700ED9C02 /* DimiBoB */,
-				9EACA7FB1E5B55A700ED9C02 /* DimiBoBTests */,
-				9EACA8061E5B55A700ED9C02 /* DimiBoBUITests */,
-				9EACA81D1E5B587E00ED9C02 /* DimiBoB_Extension */,
-				9EACA81A1E5B587E00ED9C02 /* Frameworks */,
-				9EACA7E01E5B55A700ED9C02 /* Products */,
+				9E5319A01E61AADA00868B7F /* DimiBoB */,
+				9E5319B51E61AADA00868B7F /* DimiBoBTests */,
+				9E5319C01E61AADA00868B7F /* DimiBoBUITests */,
+				9E53199F1E61AADA00868B7F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9EACA7E01E5B55A700ED9C02 /* Products */ = {
+		9E53199F1E61AADA00868B7F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9EACA7DF1E5B55A700ED9C02 /* DimiBoB.app */,
-				9EACA7F81E5B55A700ED9C02 /* DimiBoBTests.xctest */,
-				9EACA8031E5B55A700ED9C02 /* DimiBoBUITests.xctest */,
-				9EACA8191E5B587E00ED9C02 /* DimiBoB_Extension.appex */,
+				9E53199E1E61AADA00868B7F /* DimiBoB.app */,
+				9E5319B21E61AADA00868B7F /* DimiBoBTests.xctest */,
+				9E5319BD1E61AADA00868B7F /* DimiBoBUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9EACA7E11E5B55A700ED9C02 /* DimiBoB */ = {
+		9E5319A01E61AADA00868B7F /* DimiBoB */ = {
 			isa = PBXGroup;
 			children = (
-				9EACA7E51E5B55A700ED9C02 /* AppDelegate.h */,
-				9EACA7E61E5B55A700ED9C02 /* AppDelegate.m */,
-				9EACA7E81E5B55A700ED9C02 /* ViewController.h */,
-				9EACA7E91E5B55A700ED9C02 /* ViewController.m */,
-				9EACA7EB1E5B55A700ED9C02 /* Main.storyboard */,
-				9EACA7EE1E5B55A700ED9C02 /* Assets.xcassets */,
-				9EACA7F01E5B55A700ED9C02 /* LaunchScreen.storyboard */,
-				9EACA7F31E5B55A700ED9C02 /* Info.plist */,
-				9EACA7E21E5B55A700ED9C02 /* Supporting Files */,
+				9E5319A11E61AADA00868B7F /* AppDelegate.swift */,
+				9E5319A31E61AADA00868B7F /* ViewController.swift */,
+				9E5319A51E61AADA00868B7F /* Main.storyboard */,
+				9E5319A81E61AADA00868B7F /* Assets.xcassets */,
+				9E5319AA1E61AADA00868B7F /* LaunchScreen.storyboard */,
+				9E5319AD1E61AADA00868B7F /* Info.plist */,
 			);
 			path = DimiBoB;
 			sourceTree = "<group>";
 		};
-		9EACA7E21E5B55A700ED9C02 /* Supporting Files */ = {
+		9E5319B51E61AADA00868B7F /* DimiBoBTests */ = {
 			isa = PBXGroup;
 			children = (
-				9EACA7E31E5B55A700ED9C02 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9EACA7FB1E5B55A700ED9C02 /* DimiBoBTests */ = {
-			isa = PBXGroup;
-			children = (
-				9EACA7FC1E5B55A700ED9C02 /* DimiBoBTests.m */,
-				9EACA7FE1E5B55A700ED9C02 /* Info.plist */,
+				9E5319B61E61AADA00868B7F /* DimiBoBTests.swift */,
+				9E5319B81E61AADA00868B7F /* Info.plist */,
 			);
 			path = DimiBoBTests;
 			sourceTree = "<group>";
 		};
-		9EACA8061E5B55A700ED9C02 /* DimiBoBUITests */ = {
+		9E5319C01E61AADA00868B7F /* DimiBoBUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9EACA8071E5B55A700ED9C02 /* DimiBoBUITests.m */,
-				9EACA8091E5B55A700ED9C02 /* Info.plist */,
+				9E5319C11E61AADA00868B7F /* DimiBoBUITests.swift */,
+				9E5319C31E61AADA00868B7F /* Info.plist */,
 			);
 			path = DimiBoBUITests;
-			sourceTree = "<group>";
-		};
-		9EACA81A1E5B587E00ED9C02 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9EACA81B1E5B587E00ED9C02 /* NotificationCenter.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9EACA81D1E5B587E00ED9C02 /* DimiBoB_Extension */ = {
-			isa = PBXGroup;
-			children = (
-				9EACA81E1E5B587E00ED9C02 /* TodayViewController.h */,
-				9EACA81F1E5B587E00ED9C02 /* TodayViewController.m */,
-				9EACA8211E5B587E00ED9C02 /* MainInterface.storyboard */,
-				9EACA8241E5B587E00ED9C02 /* Info.plist */,
-			);
-			path = DimiBoB_Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9EACA7DE1E5B55A600ED9C02 /* DimiBoB */ = {
+		9E53199D1E61AADA00868B7F /* DimiBoB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9EACA80C1E5B55A700ED9C02 /* Build configuration list for PBXNativeTarget "DimiBoB" */;
+			buildConfigurationList = 9E5319C61E61AADA00868B7F /* Build configuration list for PBXNativeTarget "DimiBoB" */;
 			buildPhases = (
-				9EACA7DB1E5B55A600ED9C02 /* Sources */,
-				9EACA7DC1E5B55A600ED9C02 /* Frameworks */,
-				9EACA7DD1E5B55A600ED9C02 /* Resources */,
-				9EACA82B1E5B587E00ED9C02 /* Embed App Extensions */,
+				9E53199A1E61AADA00868B7F /* Sources */,
+				9E53199B1E61AADA00868B7F /* Frameworks */,
+				9E53199C1E61AADA00868B7F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9EACA8261E5B587E00ED9C02 /* PBXTargetDependency */,
 			);
 			name = DimiBoB;
 			productName = DimiBoB;
-			productReference = 9EACA7DF1E5B55A700ED9C02 /* DimiBoB.app */;
+			productReference = 9E53199E1E61AADA00868B7F /* DimiBoB.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9EACA7F71E5B55A700ED9C02 /* DimiBoBTests */ = {
+		9E5319B11E61AADA00868B7F /* DimiBoBTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9EACA80F1E5B55A700ED9C02 /* Build configuration list for PBXNativeTarget "DimiBoBTests" */;
+			buildConfigurationList = 9E5319C91E61AADA00868B7F /* Build configuration list for PBXNativeTarget "DimiBoBTests" */;
 			buildPhases = (
-				9EACA7F41E5B55A700ED9C02 /* Sources */,
-				9EACA7F51E5B55A700ED9C02 /* Frameworks */,
-				9EACA7F61E5B55A700ED9C02 /* Resources */,
+				9E5319AE1E61AADA00868B7F /* Sources */,
+				9E5319AF1E61AADA00868B7F /* Frameworks */,
+				9E5319B01E61AADA00868B7F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9EACA7FA1E5B55A700ED9C02 /* PBXTargetDependency */,
+				9E5319B41E61AADA00868B7F /* PBXTargetDependency */,
 			);
 			name = DimiBoBTests;
 			productName = DimiBoBTests;
-			productReference = 9EACA7F81E5B55A700ED9C02 /* DimiBoBTests.xctest */;
+			productReference = 9E5319B21E61AADA00868B7F /* DimiBoBTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9EACA8021E5B55A700ED9C02 /* DimiBoBUITests */ = {
+		9E5319BC1E61AADA00868B7F /* DimiBoBUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9EACA8121E5B55A700ED9C02 /* Build configuration list for PBXNativeTarget "DimiBoBUITests" */;
+			buildConfigurationList = 9E5319CC1E61AADA00868B7F /* Build configuration list for PBXNativeTarget "DimiBoBUITests" */;
 			buildPhases = (
-				9EACA7FF1E5B55A700ED9C02 /* Sources */,
-				9EACA8001E5B55A700ED9C02 /* Frameworks */,
-				9EACA8011E5B55A700ED9C02 /* Resources */,
+				9E5319B91E61AADA00868B7F /* Sources */,
+				9E5319BA1E61AADA00868B7F /* Frameworks */,
+				9E5319BB1E61AADA00868B7F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9EACA8051E5B55A700ED9C02 /* PBXTargetDependency */,
+				9E5319BF1E61AADA00868B7F /* PBXTargetDependency */,
 			);
 			name = DimiBoBUITests;
 			productName = DimiBoBUITests;
-			productReference = 9EACA8031E5B55A700ED9C02 /* DimiBoBUITests.xctest */;
+			productReference = 9E5319BD1E61AADA00868B7F /* DimiBoBUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		9EACA8181E5B587E00ED9C02 /* DimiBoB_Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9EACA8281E5B587E00ED9C02 /* Build configuration list for PBXNativeTarget "DimiBoB_Extension" */;
-			buildPhases = (
-				9EACA8151E5B587E00ED9C02 /* Sources */,
-				9EACA8161E5B587E00ED9C02 /* Frameworks */,
-				9EACA8171E5B587E00ED9C02 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DimiBoB_Extension;
-			productName = DimiBoB_Extension;
-			productReference = 9EACA8191E5B587E00ED9C02 /* DimiBoB_Extension.appex */;
-			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9EACA7D71E5B55A600ED9C02 /* Project object */ = {
+		9E5319961E61AADA00868B7F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = HaJunHyeok;
 				TargetAttributes = {
-					9EACA7DE1E5B55A600ED9C02 = {
+					9E53199D1E61AADA00868B7F = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
-					9EACA7F71E5B55A700ED9C02 = {
+					9E5319B11E61AADA00868B7F = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 9EACA7DE1E5B55A600ED9C02;
+						TestTargetID = 9E53199D1E61AADA00868B7F;
 					};
-					9EACA8021E5B55A700ED9C02 = {
+					9E5319BC1E61AADA00868B7F = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 9EACA7DE1E5B55A600ED9C02;
-					};
-					9EACA8181E5B587E00ED9C02 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						TestTargetID = 9E53199D1E61AADA00868B7F;
 					};
 				};
 			};
-			buildConfigurationList = 9EACA7DA1E5B55A600ED9C02 /* Build configuration list for PBXProject "DimiBoB" */;
+			buildConfigurationList = 9E5319991E61AADA00868B7F /* Build configuration list for PBXProject "DimiBoB" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -313,138 +215,107 @@
 				en,
 				Base,
 			);
-			mainGroup = 9EACA7D61E5B55A600ED9C02;
-			productRefGroup = 9EACA7E01E5B55A700ED9C02 /* Products */;
+			mainGroup = 9E5319951E61AADA00868B7F;
+			productRefGroup = 9E53199F1E61AADA00868B7F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9EACA7DE1E5B55A600ED9C02 /* DimiBoB */,
-				9EACA7F71E5B55A700ED9C02 /* DimiBoBTests */,
-				9EACA8021E5B55A700ED9C02 /* DimiBoBUITests */,
-				9EACA8181E5B587E00ED9C02 /* DimiBoB_Extension */,
+				9E53199D1E61AADA00868B7F /* DimiBoB */,
+				9E5319B11E61AADA00868B7F /* DimiBoBTests */,
+				9E5319BC1E61AADA00868B7F /* DimiBoBUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9EACA7DD1E5B55A600ED9C02 /* Resources */ = {
+		9E53199C1E61AADA00868B7F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EACA7F21E5B55A700ED9C02 /* LaunchScreen.storyboard in Resources */,
-				9EACA7EF1E5B55A700ED9C02 /* Assets.xcassets in Resources */,
-				9EACA7ED1E5B55A700ED9C02 /* Main.storyboard in Resources */,
+				9E5319AC1E61AADA00868B7F /* LaunchScreen.storyboard in Resources */,
+				9E5319A91E61AADA00868B7F /* Assets.xcassets in Resources */,
+				9E5319A71E61AADA00868B7F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EACA7F61E5B55A700ED9C02 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9EACA8011E5B55A700ED9C02 /* Resources */ = {
+		9E5319B01E61AADA00868B7F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EACA8171E5B587E00ED9C02 /* Resources */ = {
+		9E5319BB1E61AADA00868B7F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EACA8231E5B587E00ED9C02 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9EACA7DB1E5B55A600ED9C02 /* Sources */ = {
+		9E53199A1E61AADA00868B7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EACA7EA1E5B55A700ED9C02 /* ViewController.m in Sources */,
-				9EACA7E71E5B55A700ED9C02 /* AppDelegate.m in Sources */,
-				9EACA7E41E5B55A700ED9C02 /* main.m in Sources */,
+				9E5319A41E61AADA00868B7F /* ViewController.swift in Sources */,
+				9E5319A21E61AADA00868B7F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EACA7F41E5B55A700ED9C02 /* Sources */ = {
+		9E5319AE1E61AADA00868B7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EACA7FD1E5B55A700ED9C02 /* DimiBoBTests.m in Sources */,
+				9E5319B71E61AADA00868B7F /* DimiBoBTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EACA7FF1E5B55A700ED9C02 /* Sources */ = {
+		9E5319B91E61AADA00868B7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EACA8081E5B55A700ED9C02 /* DimiBoBUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9EACA8151E5B587E00ED9C02 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9EACA8201E5B587E00ED9C02 /* TodayViewController.m in Sources */,
+				9E5319C21E61AADA00868B7F /* DimiBoBUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9EACA7FA1E5B55A700ED9C02 /* PBXTargetDependency */ = {
+		9E5319B41E61AADA00868B7F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9EACA7DE1E5B55A600ED9C02 /* DimiBoB */;
-			targetProxy = 9EACA7F91E5B55A700ED9C02 /* PBXContainerItemProxy */;
+			target = 9E53199D1E61AADA00868B7F /* DimiBoB */;
+			targetProxy = 9E5319B31E61AADA00868B7F /* PBXContainerItemProxy */;
 		};
-		9EACA8051E5B55A700ED9C02 /* PBXTargetDependency */ = {
+		9E5319BF1E61AADA00868B7F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9EACA7DE1E5B55A600ED9C02 /* DimiBoB */;
-			targetProxy = 9EACA8041E5B55A700ED9C02 /* PBXContainerItemProxy */;
-		};
-		9EACA8261E5B587E00ED9C02 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9EACA8181E5B587E00ED9C02 /* DimiBoB_Extension */;
-			targetProxy = 9EACA8251E5B587E00ED9C02 /* PBXContainerItemProxy */;
+			target = 9E53199D1E61AADA00868B7F /* DimiBoB */;
+			targetProxy = 9E5319BE1E61AADA00868B7F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9EACA7EB1E5B55A700ED9C02 /* Main.storyboard */ = {
+		9E5319A51E61AADA00868B7F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9EACA7EC1E5B55A700ED9C02 /* Base */,
+				9E5319A61E61AADA00868B7F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9EACA7F01E5B55A700ED9C02 /* LaunchScreen.storyboard */ = {
+		9E5319AA1E61AADA00868B7F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9EACA7F11E5B55A700ED9C02 /* Base */,
+				9E5319AB1E61AADA00868B7F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		9EACA8211E5B587E00ED9C02 /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9EACA8221E5B587E00ED9C02 /* Base */,
-			);
-			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9EACA80A1E5B55A700ED9C02 /* Debug */ = {
+		9E5319C41E61AADA00868B7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -488,11 +359,13 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		9EACA80B1E5B55A700ED9C02 /* Release */ = {
+		9E5319C51E61AADA00868B7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -529,150 +402,130 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		9EACA80D1E5B55A700ED9C02 /* Debug */ = {
+		9E5319C71E61AADA00868B7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DimiBoB/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kdmhs.me.enoxaiming.DimiBoB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		9EACA80E1E5B55A700ED9C02 /* Release */ = {
+		9E5319C81E61AADA00868B7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DimiBoB/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kdmhs.me.enoxaiming.DimiBoB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		9EACA8101E5B55A700ED9C02 /* Debug */ = {
+		9E5319CA1E61AADA00868B7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DimiBoBTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kdmhs.me.enoxaiming.DimiBoBTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DimiBoB.app/DimiBoB";
 			};
 			name = Debug;
 		};
-		9EACA8111E5B55A700ED9C02 /* Release */ = {
+		9E5319CB1E61AADA00868B7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DimiBoBTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kdmhs.me.enoxaiming.DimiBoBTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DimiBoB.app/DimiBoB";
 			};
 			name = Release;
 		};
-		9EACA8131E5B55A700ED9C02 /* Debug */ = {
+		9E5319CD1E61AADA00868B7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = DimiBoBUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kdmhs.me.enoxaiming.DimiBoBUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = DimiBoB;
 			};
 			name = Debug;
 		};
-		9EACA8141E5B55A700ED9C02 /* Release */ = {
+		9E5319CE1E61AADA00868B7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = DimiBoBUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kdmhs.me.enoxaiming.DimiBoBUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = DimiBoB;
-			};
-			name = Release;
-		};
-		9EACA8291E5B587E00ED9C02 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = DimiBoB_Extension/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "kdmhs.me.enoxaiming.DimiBoB.DimiBoB-Extension";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		9EACA82A1E5B587E00ED9C02 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = DimiBoB_Extension/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "kdmhs.me.enoxaiming.DimiBoB.DimiBoB-Extension";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9EACA7DA1E5B55A600ED9C02 /* Build configuration list for PBXProject "DimiBoB" */ = {
+		9E5319991E61AADA00868B7F /* Build configuration list for PBXProject "DimiBoB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9EACA80A1E5B55A700ED9C02 /* Debug */,
-				9EACA80B1E5B55A700ED9C02 /* Release */,
+				9E5319C41E61AADA00868B7F /* Debug */,
+				9E5319C51E61AADA00868B7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9EACA80C1E5B55A700ED9C02 /* Build configuration list for PBXNativeTarget "DimiBoB" */ = {
+		9E5319C61E61AADA00868B7F /* Build configuration list for PBXNativeTarget "DimiBoB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9EACA80D1E5B55A700ED9C02 /* Debug */,
-				9EACA80E1E5B55A700ED9C02 /* Release */,
+				9E5319C71E61AADA00868B7F /* Debug */,
+				9E5319C81E61AADA00868B7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		9EACA80F1E5B55A700ED9C02 /* Build configuration list for PBXNativeTarget "DimiBoBTests" */ = {
+		9E5319C91E61AADA00868B7F /* Build configuration list for PBXNativeTarget "DimiBoBTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9EACA8101E5B55A700ED9C02 /* Debug */,
-				9EACA8111E5B55A700ED9C02 /* Release */,
+				9E5319CA1E61AADA00868B7F /* Debug */,
+				9E5319CB1E61AADA00868B7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		9EACA8121E5B55A700ED9C02 /* Build configuration list for PBXNativeTarget "DimiBoBUITests" */ = {
+		9E5319CC1E61AADA00868B7F /* Build configuration list for PBXNativeTarget "DimiBoBUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9EACA8131E5B55A700ED9C02 /* Debug */,
-				9EACA8141E5B55A700ED9C02 /* Release */,
+				9E5319CD1E61AADA00868B7F /* Debug */,
+				9E5319CE1E61AADA00868B7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		9EACA8281E5B587E00ED9C02 /* Build configuration list for PBXNativeTarget "DimiBoB_Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9EACA8291E5B587E00ED9C02 /* Debug */,
-				9EACA82A1E5B587E00ED9C02 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9EACA7D71E5B55A600ED9C02 /* Project object */;
+	rootObject = 9E5319961E61AADA00868B7F /* Project object */;
 }

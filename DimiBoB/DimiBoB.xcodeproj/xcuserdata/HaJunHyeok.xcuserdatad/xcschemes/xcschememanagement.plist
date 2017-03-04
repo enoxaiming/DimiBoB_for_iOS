@@ -9,30 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>DimiBoB_Extension.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>9EACA7DE1E5B55A600ED9C02</key>
+		<key>9E53199D1E61AADA00868B7F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9EACA7F71E5B55A700ED9C02</key>
+		<key>9E5319B11E61AADA00868B7F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9EACA8021E5B55A700ED9C02</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>9EACA8181E5B587E00ED9C02</key>
+		<key>9E5319BC1E61AADA00868B7F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

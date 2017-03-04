@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9EACA7DE1E5B55A600ED9C02"
+               BlueprintIdentifier = "9E53199D1E61AADA00868B7F"
                BuildableName = "DimiBoB.app"
                BlueprintName = "DimiBoB"
                ReferencedContainer = "container:DimiBoB.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9EACA7F71E5B55A700ED9C02"
+               BlueprintIdentifier = "9E5319B11E61AADA00868B7F"
                BuildableName = "DimiBoBTests.xctest"
                BlueprintName = "DimiBoBTests"
                ReferencedContainer = "container:DimiBoB.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9EACA8021E5B55A700ED9C02"
+               BlueprintIdentifier = "9E5319BC1E61AADA00868B7F"
                BuildableName = "DimiBoBUITests.xctest"
                BlueprintName = "DimiBoBUITests"
                ReferencedContainer = "container:DimiBoB.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9EACA7DE1E5B55A600ED9C02"
+            BlueprintIdentifier = "9E53199D1E61AADA00868B7F"
             BuildableName = "DimiBoB.app"
             BlueprintName = "DimiBoB"
             ReferencedContainer = "container:DimiBoB.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9EACA7DE1E5B55A600ED9C02"
+            BlueprintIdentifier = "9E53199D1E61AADA00868B7F"
             BuildableName = "DimiBoB.app"
             BlueprintName = "DimiBoB"
             ReferencedContainer = "container:DimiBoB.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9EACA7DE1E5B55A600ED9C02"
+            BlueprintIdentifier = "9E53199D1E61AADA00868B7F"
             BuildableName = "DimiBoB.app"
             BlueprintName = "DimiBoB"
             ReferencedContainer = "container:DimiBoB.xcodeproj">
